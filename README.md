@@ -5,6 +5,6 @@ You can compile the test program with g++.
 
 Compile commands: 
 g++ -c main.cpp -o main.o 
-g++ -Wall -o program.exe main.o
+g++ -Wall -o program.exe main.o 
 
 YT video: https://youtu.be/_gVfCrFPR08
