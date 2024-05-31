@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  DETOUR.cpp
+  HookManager.cpp
+  ProgramManager.cpp
+  dllmain.cpp
+  Generating Code...
+  detourDll.vcxproj -> C:\Users\Balogh István\source\detourDll\Debug\detourDll.dll

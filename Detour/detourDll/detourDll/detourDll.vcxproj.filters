@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\project">
+      <UniqueIdentifier>{358111e5-89b9-4b0e-a44e-771de8de8f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{5ec01337-1987-4fc3-8499-c175e8f5c1f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers">
+      <UniqueIdentifier>{d1999547-c8f5-4e51-bb65-65dbc6e2f4b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\project">
+      <UniqueIdentifier>{0ac4eb2e-90f1-4f68-bbd8-65a0ba7e01d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\ProgramManager">
+      <UniqueIdentifier>{e970aa3f-e84f-422f-bd43-8f3c7a25e6f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers\HookManager">
+      <UniqueIdentifier>{e3f51595-70d1-4aa0-a4d5-a704ca8c6271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common\DETOUR">
+      <UniqueIdentifier>{276d9380-c48c-4ef0-9483-9245246b9c75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\project</Filter>
+    </ClInclude>
+    <ClInclude Include="HookManager.h">
+      <Filter>Source Files\managers\HookManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgramManager.h">
+      <Filter>Source Files\managers\ProgramManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DETOUR.h">
+      <Filter>Source Files\common\DETOUR</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files\project</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\project</Filter>
+    </ClCompile>
+    <ClCompile Include="HookManager.cpp">
+      <Filter>Source Files\managers\HookManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgramManager.cpp">
+      <Filter>Source Files\managers\ProgramManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DETOUR.cpp">
+      <Filter>Source Files\common\DETOUR</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
